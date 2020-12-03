@@ -170,7 +170,6 @@ const SectionOneStyle = styled.div`
 class SectionOne extends React.Component {
     constructor(props) {
         super(props);
-        Aos.init({duration: 2000, mirror: true});
     }
     render() {
         return(
@@ -179,7 +178,7 @@ class SectionOne extends React.Component {
                     <span className="about-us-header">About Us</span>
                     <hr className="about-us-header-underline"/>
                 </div>
-                <div className="right" data-aos="zoom-in">
+                <div className="right">
                     <span className="about-us-description">
                     Located in room 343 of the JDUC, the AMS Food Bank serves confidential and 
                     non-judgmental food service to members of the Queen’s community.
