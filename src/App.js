@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
-import IconButton from "@material-ui/core/Iconbutton"
+import IconButton from "@material-ui/core/IconButton"
 import styled from "styled-components";
 import { Navigation } from "./Navigation";
 
