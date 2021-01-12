@@ -69,7 +69,7 @@ export class SectionThree extends React.Component {
                 <div className="section-three-header"><span>Facebook Page</span></div>
                 <div className="section-three-error-header">
                     <span>Don't see anything? Try refreshing the page or click the link below:</span>
-                    <div><IconButton><FacebookIcon className="facebook-button" /></IconButton></div>
+                    <div><IconButton href="https://www.facebook.com/amsfoodbank" rel="noopener" target="_blank"><FacebookIcon className="facebook-button" /></IconButton></div>
                 </div>
                 <div className="fb-wrapper">
                     <div 
