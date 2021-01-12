@@ -2,8 +2,8 @@ import React from "react";
 import { AppBar, Toolbar, Button } from "@material-ui/core";
 import styled from "styled-components";
 
-import amslogo from "./assets/amslogo.png";
-import foodbanklogo from "./assets/foodbanklogo.png";
+import amslogo from "../assets/amslogo.png";
+import foodbanklogo from "../assets/foodbanklogo.png";
 
 const Style = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
